@@ -69,20 +69,6 @@
     <Content Include="10\galerija.html" />
     <Content Include="10\index.html" />
     <Content Include="10\scrolling.js" />
-    <Content Include="2\app.css" />
-    <Content Include="2\index.html" />
-    <Content Include="3\app.css" />
-    <Content Include="3\index.html" />
-    <Content Include="4\index.html" />
-    <Content Include="5\app.css" />
-    <Content Include="5\index.html" />
-    <Content Include="6\app.css" />
-    <Content Include="6\index.html" />
-    <Content Include="7\app.css" />
-    <Content Include="7\index.html" />
-    <Content Include="8\app.css" />
-    <Content Include="8\index.html" />
-    <Content Include="9\app.css" />
     <Content Include="Content\css\animate.css" />
     <Content Include="Content\css\nanogallery.min.css" />
     <Content Include="Content\fonts\font-awesome.css" />
@@ -94,8 +80,6 @@
     <Content Include="Content\js\jquery.stellar.min.js" />
     <Content Include="Content\js\wow.min.js" />
     <Content Include="BosnianWav.wav" />
-    <Content Include="9\index.html" />
-    <Content Include="9\sscrolling.js" />
     <Content Include="Content\css\jquery.fs.wallpaper.css" />
     <Content Include="Content\js\jquery.fs.wallpaper.min.js" />
     <Content Include="Content\js\cbpAnimatedHeader.js" />
@@ -121,7 +105,6 @@
     <Content Include="images\carousel\023_Visocica_Panos_DSCF3310_1.jpg" />
     <Content Include="images\carousel\16177958_1751923238458848_2828461094574997018_o.jpg" />
     <Content Include="images\208792.jpg" />
-    <Content Include="images\BosnianWav.wav" />
     <Content Include="images\carousel\bjelasnica-cover.jpg" />
     <Content Include="images\carousel\jahh.JPG" />
     <Content Include="images\carousel\nacionalni-park-kozara-heder-5.jpg" />
@@ -201,7 +184,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="1\index.html" />
     <Content Include="Content\css\app.css" />
     <Content Include="Content\css\bootstrap-theme.css" />
     <Content Include="Content\css\bootstrap-theme.min.css" />
