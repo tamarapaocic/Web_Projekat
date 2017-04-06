@@ -1,0 +1,266 @@
+﻿<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props" Condition="Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{32D639F9-6423-4381-A65B-AC87351BCB18}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebApplication5</RootNamespace>
+    <AssemblyName>WebApplication5</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform, Version=1.0.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="10\app.css" />
+    <Content Include="10\galerija.html" />
+    <Content Include="10\index.html" />
+    <Content Include="10\scrolling.js" />
+    <Content Include="2\app.css" />
+    <Content Include="2\index.html" />
+    <Content Include="3\app.css" />
+    <Content Include="3\index.html" />
+    <Content Include="4\index.html" />
+    <Content Include="5\app.css" />
+    <Content Include="5\index.html" />
+    <Content Include="6\app.css" />
+    <Content Include="6\index.html" />
+    <Content Include="7\app.css" />
+    <Content Include="7\index.html" />
+    <Content Include="8\app.css" />
+    <Content Include="8\index.html" />
+    <Content Include="9\app.css" />
+    <Content Include="Content\css\animate.css" />
+    <Content Include="Content\css\nanogallery.min.css" />
+    <Content Include="Content\fonts\font-awesome.css" />
+    <Content Include="Content\fonts\font-awesome.min.css" />
+    <Content Include="Content\css\font\nano_icon_font3.svg" />
+    <Content Include="Content\js\jquery.easing.1.3.js" />
+    <Content Include="Content\js\jquery.nanogallery.min.js" />
+    <Content Include="Content\js\jquery.stellar.js" />
+    <Content Include="Content\js\jquery.stellar.min.js" />
+    <Content Include="Content\js\wow.min.js" />
+    <Content Include="BosnianWav.wav" />
+    <Content Include="9\index.html" />
+    <Content Include="9\sscrolling.js" />
+    <Content Include="Content\css\jquery.fs.wallpaper.css" />
+    <Content Include="Content\js\jquery.fs.wallpaper.min.js" />
+    <Content Include="Content\js\cbpAnimatedHeader.js" />
+    <Content Include="Content\js\classie.js" />
+    <Content Include="Content\js\jquery-3.2.0.min.js" />
+    <Content Include="Content\js\scrolling.js" />
+    <Content Include="Content\js\sound.js" />
+    <Content Include="images\14991456_1708052416179264_1649913019742127289_o.jpg" />
+    <Content Include="images\15000130_1711143132536859_4654816765083525292_o.jpg" />
+    <Content Include="images\15235813_1721462381504934_8606755365173651597_o.jpg" />
+    <Content Include="images\15400524_1731473757170463_3075188409012037754_n.jpg" />
+    <Content Include="images\15578079_1745542815763557_3932834133322962136_o.jpg" />
+    <Content Include="images\konji.jpg" />
+    <Content Include="images\koz.jpg" />
+    <Content Include="images\plivamills.jpg" />
+    <Content Include="images\stec.jpg" />
+    <Content Include="images\konji2.jpg" />
+    <Content Include="images\vrelo.jpg" />
+    <Content Include="images\17632065_1793760110941827_19592867450653434_o.jpg" />
+    <Content Include="images\bjelas.jpg" />
+    <Content Include="images\borcako.jpg" />
+    <Content Include="images\buskoJezero7.jpg" />
+    <Content Include="images\carousel\023_Visocica_Panos_DSCF3310_1.jpg" />
+    <Content Include="images\carousel\16177958_1751923238458848_2828461094574997018_o.jpg" />
+    <Content Include="images\208792.jpg" />
+    <Content Include="images\BosnianWav.wav" />
+    <Content Include="images\carousel\bjelasnica-cover.jpg" />
+    <Content Include="images\carousel\jahh.JPG" />
+    <Content Include="images\carousel\nacionalni-park-kozara-heder-5.jpg" />
+    <Content Include="images\carousel\prijevor.jpg" />
+    <Content Include="images\carousel\Tjentište-Sutjeska.jpg" />
+    <Content Include="images\carousel\visocica2.jpg" />
+    <Content Include="images\carousel\Zubac Prenj_Foto Leonardo_Djogas.jpg" />
+    <Content Include="images\drina.jpg" />
+    <Content Include="images\foca.jpg" />
+    <Content Include="images\hajduckaVrata.jpg" />
+    <Content Include="images\Bijambare.jpg" />
+    <Content Include="images\hutovo-blato-1-1.jpg" />
+    <Content Include="images\jablanica.jpg" />
+    <Content Include="images\jablanicko.jpg" />
+    <Content Include="images\jahorina.jpg" />
+    <Content Include="images\Jahorina3.jpg" />
+    <Content Include="images\jajce.jpg" />
+    <Content Include="images\jesen-sana.jpg" />
+    <Content Include="images\kanjonTare.jpg" />
+    <Content Include="images\Kravice.jpg" />
+    <Content Include="images\Livanjski-divlji-konji-1.jpg" />
+    <Content Include="images\logo9 - Copy.jpg" />
+    <Content Include="images\maglic.jpg" />
+    <Content Include="images\modrac.jpg" />
+    <Content Include="images\nacionalni-park-kozara-heder-5.jpg" />
+    <Content Include="images\neretva %282%29.jpg" />
+    <Content Include="images\neretva-5.jpg" />
+    <Content Include="images\Ostrozac2.jpg" />
+    <Content Include="images\parkTajan.jpg" />
+    <Content Include="images\percu.jpg" />
+    <Content Include="images\peruci.jpg" />
+    <Content Include="images\Perućica_Forest_%283886656871%29.jpg" />
+    <Content Include="images\Perućica_primeval_forest_%287901927430%29.jpg" />
+    <Content Include="images\plivaJajce.jpg" />
+    <Content Include="images\Prašuma-Perućica-1565.jpg" />
+    <Content Include="images\prenj.JPG" />
+    <Content Include="images\prok.jpg" />
+    <Content Include="images\prokorsko.jpg" />
+    <Content Include="images\Prokosko_jezero_%281%29.jpg" />
+    <Content Include="images\rakitnica-7.jpg" />
+    <Content Include="images\ramaObilazak-12-1024x767.jpg" />
+    <Content Include="images\sistice.jpg" />
+    <Content Include="images\skakavac.jpg" />
+    <Content Include="images\srebrenica.jpg" />
+    <Content Include="images\sutj.jpg" />
+    <Content Include="images\Sutjeska.jpg" />
+    <Content Include="images\trebisnjica.jpg" />
+    <Content Include="images\treskavica.jpg" />
+    <Content Include="images\Trnovacko-jezero1.jpg" />
+    <Content Include="images\una.jpg" />
+    <Content Include="images\carousel\una2.jpg" />
+    <Content Include="images\una2.jpg" />
+    <Content Include="images\una4.jpg" />
+    <Content Include="images\visocica.jpg" />
+    <Content Include="images\vodopad_skakavac-perucica.jpg" />
+    <Content Include="images\Volujak.jpg" />
+    <Content Include="images\vrelobosne.jpg" />
+    <Content Include="images\vreloBune.jpg" />
+    <Content Include="images\zaledjeno.jpg" />
+    <Content Include="packages.config" />
+    <Content Include="Content\css\bootstrap-theme.css.map" />
+    <Content Include="Content\css\bootstrap-theme.min.css.map" />
+    <Content Include="Content\css\bootstrap.css.map" />
+    <Content Include="Content\css\bootstrap.min.css.map" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="Content\css\font\nano_icon_font3.eot" />
+    <Content Include="Content\css\font\nano_icon_font3.ttf" />
+    <Content Include="Content\css\font\nano_icon_font3.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1\index.html" />
+    <Content Include="Content\css\app.css" />
+    <Content Include="Content\css\bootstrap-theme.css" />
+    <Content Include="Content\css\bootstrap-theme.min.css" />
+    <Content Include="Content\css\bootstrap.css" />
+    <Content Include="Content\css\bootstrap.min.css" />
+    <Content Include="Content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Content\js\bootstrap.js" />
+    <Content Include="Content\js\bootstrap.min.js" />
+    <Content Include="Content\js\npm.js" />
+    <Content Include="images\16388088_1757663027884869_1968760393179739087_n.jpg" />
+    <Content Include="images\icon\6214-200.png" />
+    <Content Include="images\icon\animals.png" />
+    <Content Include="images\icon\camp.png" />
+    <Content Include="images\icon\hiking.png" />
+    <Content Include="images\icon\skiing.png" />
+    <Content Include="images\icon\swimming.png" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>61509</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:61509/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Net.Compilers.1.3.2\build\Microsoft.Net.Compilers.props'))" />
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.3\build\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
