@@ -7,8 +7,8 @@ $(function () {
     $("#video-wallpaper").wallpaper({
         source: {
             poster: "../images/hajduckaVrata.jpg",
-            video: "//www.youtube.com/embed/goQMXfiS-dA",
-           
+            //video: "//www.youtube.com/embed/goQMXfiS-dA"
+           mp4: "../10/BosnianLandscapes.mp4" 
            
         }
     });

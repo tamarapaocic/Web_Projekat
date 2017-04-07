@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="10\app.css" />
+    <Content Include="10\BosnianLandscapes.mp4" />
     <Content Include="10\galerija.html" />
     <Content Include="10\index.html" />
     <Content Include="10\scrolling.js" />
